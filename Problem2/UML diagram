@@ -1,0 +1,20 @@
+MY RECTANGLE 
+
+ 
+
+-topleft : MyPoint 
+
+-bottomright : MyPoint 
+
+ 
++MyRectangle( x1:int , y1:int ,  x2:int , y2:int) 
+
++getTopleft(): MyPoint 
+
++getBottomright(): MyPoint 
+
++setTopleft(topleft:MyPoint): void 
+
++setBottomright(bottomright:MyPoint): void 
+
++toString(): String 
